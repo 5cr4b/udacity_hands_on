@@ -1,0 +1,1 @@
+aws cloudformation update-stack --stack-name --stack-name deploy-app  --template-body file://infraTemplete.yml --parameters file://prameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
